@@ -8,5 +8,14 @@ namespace D_DHelper.Source
 {
     interface IMasterInterface
     {
+        void CreateCharacter();
+        void OpenSpellsBase();
+        void OpenCharactersBase();
+        void OpenItemsBase();
+        void OpenDiceRoller();
+        void OpenMonstersBase();
+        void OpenInitiativeCounter();
+        void OpenAdventuresJournal();
+        void OpenOwnContentBuilder();
     }
 }

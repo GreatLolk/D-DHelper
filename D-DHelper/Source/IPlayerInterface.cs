@@ -8,5 +8,11 @@ namespace D_DHelper.Source
 {
     interface IPlayerInterface
     {
+        void CreateCharacter();
+        void OpenSpellsBase();
+        void OpenCharactersBase();
+        void OpenItemsBase();
+        void OpenDiceRoller();
+        void OpenMonstersBase();
     }
 }
