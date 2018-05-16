@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace D_DHelper.Source
+namespace D_DHelper
 {
-    class Utilities : IPlayerInterface, IMasterInterface
+    class Utilities : IUserInterface
     {
         public void CreateCharacter()
         {
