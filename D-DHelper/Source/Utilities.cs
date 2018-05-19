@@ -26,6 +26,7 @@ namespace D_DHelper
 
         public void OpenDiceRoller()
         {
+            DiceRoller.OpenDiceRoller();
         }
 
         public void OpenMonstersBase()
