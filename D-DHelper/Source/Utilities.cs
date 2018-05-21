@@ -10,18 +10,22 @@ namespace D_DHelper
     {
         public void CreateCharacter()
         {
+            CharactersCreator.CreateCharacter();
         }
 
         public void OpenSpellsBase()
         {
+            SpellsBase.OpenSpellsBase();
         }
 
         public void OpenCharactersBase()
         {
+            CharactersBase.OpenCharactersBase();
         }
 
         public void OpenItemsBase()
         {
+            ItemsBase.OpenItemsBase();
         }
 
         public void OpenDiceRoller()
@@ -31,18 +35,22 @@ namespace D_DHelper
 
         public void OpenMonstersBase()
         {
+            MonstersBase.OpenMonstersBase();
         }
 
         public void OpenInitiativeCounter()
         {
+            InitiativeCounter.OpenInitiativeCounter();
         }
 
         public void OpenAdventuresJournal()
         {
+            AdventuresJournal.OpenAdventuresJournal();
         }
 
         public void OpenOwnContentBuilder()
         {
+            OwnContentBuilder.OpenOwnContentBuilder();
         }
     }
 }
