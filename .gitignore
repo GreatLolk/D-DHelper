@@ -20,12 +20,12 @@ Pre-production/
 *.ilk
 *.log
 .vs/
-[Bb]in
-[Dd]ebug*/
+D-DHelper/D-DHelper/[Bb]in
+D-DHelper/D-DHelper/[Dd]ebug*/
 *.lib
 *.sbr
-obj/
-[Rr]elease*/
+D-DHelper/D-DHelper/obj/
+D-DHelper/D-DHelper/[Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
 /packages

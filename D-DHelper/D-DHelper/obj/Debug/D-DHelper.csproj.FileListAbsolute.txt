@@ -1,9 +1,0 @@
-C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\bin\Debug\D-DHelper.exe.config
-C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\bin\Debug\D-DHelper.exe
-C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\bin\Debug\D-DHelper.pdb
-C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\obj\Debug\D_DHelper.Properties.Resources.resources
-C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\obj\Debug\D-DHelper.csproj.GenerateResource.cache
-C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\obj\Debug\D-DHelper.csproj.CoreCompileInputs.cache
-C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\obj\Debug\D-DHelper.exe
-C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\obj\Debug\D-DHelper.pdb
-C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\obj\Debug\D_DHelper.Form1.resources
