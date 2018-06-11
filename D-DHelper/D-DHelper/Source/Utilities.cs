@@ -10,7 +10,7 @@ namespace D_DHelper
     {
         public void CreateCharacter()
         {
-            CharactersCreator.CreateCharacter();
+            CharactersCreator.OpenCharactersCreator();
         }
 
         public void OpenSpellsBase()
