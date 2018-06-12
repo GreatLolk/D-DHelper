@@ -53,6 +53,7 @@ namespace D_DHelper
 
         public static void CreateCharacter()
         {
+            
         }
         
         public static void OpenCharactersCreator()
