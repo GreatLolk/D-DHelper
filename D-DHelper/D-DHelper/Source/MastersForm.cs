@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace D_DHelper
 {
-    public partial class Form1 : Form
+    public partial class MastersForm : Form
     {
-        public Form1()
+        public MastersForm()
         {
             InitializeComponent();
         }
