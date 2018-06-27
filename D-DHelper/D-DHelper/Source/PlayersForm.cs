@@ -16,5 +16,11 @@ namespace D_DHelper
         {
             InitializeComponent();
         }
+
+        public PlayersForm(Form mainform)
+        {
+            InitializeComponent();
+            mainform.Hide();
+        }
     }
 }

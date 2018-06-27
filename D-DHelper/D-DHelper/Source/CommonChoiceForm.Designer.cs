@@ -51,6 +51,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(229, 278);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseClick);
             this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
             // 
             // pictureBox2
@@ -63,11 +64,13 @@
             this.pictureBox2.Size = new System.Drawing.Size(250, 318);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseClick);
             this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::D_DHelper.Properties.Resources.Iamhero0_1gray;
             this.pictureBox3.Location = new System.Drawing.Point(326, 339);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(229, 278);
@@ -78,6 +81,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::D_DHelper.Properties.Resources.Iammaster0_1gray;
             this.pictureBox4.Location = new System.Drawing.Point(780, 339);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(250, 318);

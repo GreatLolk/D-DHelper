@@ -36,5 +36,18 @@ namespace D_DHelper
         {
             pictureBox4.Show();
         }
+
+        private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            PlayersForm playersform1 = new PlayersForm(this);
+            playersform1.Show();
+
+        }
+
+        private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
+        {
+            MastersForm mastersform1 = new MastersForm(this);
+            mastersform1.Show();
+        }
     }
 }
