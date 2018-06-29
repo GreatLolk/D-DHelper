@@ -63,9 +63,49 @@ namespace D_DHelper.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ArrowPF {
+            get {
+                object obj = ResourceManager.GetObject("ArrowPF", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BackgroundCommonChoice0_1 {
             get {
                 object obj = ResourceManager.GetObject("BackgroundCommonChoice0_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CharactersBaseIC {
+            get {
+                object obj = ResourceManager.GetObject("CharactersBaseIC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CharactersCreatorIC {
+            get {
+                object obj = ResourceManager.GetObject("CharactersCreatorIC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DiceRollerIC {
+            get {
+                object obj = ResourceManager.GetObject("DiceRollerIC", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +146,46 @@ namespace D_DHelper.Properties {
         internal static System.Drawing.Bitmap Iammaster0_1gray {
             get {
                 object obj = ResourceManager.GetObject("Iammaster0_1gray", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ItemsBaseIC {
+            get {
+                object obj = ResourceManager.GetObject("ItemsBaseIC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MonstersBaseIC {
+            get {
+                object obj = ResourceManager.GetObject("MonstersBaseIC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PlayersFormFon0_1 {
+            get {
+                object obj = ResourceManager.GetObject("PlayersFormFon0_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SpellsBaseIC {
+            get {
+                object obj = ResourceManager.GetObject("SpellsBaseIC", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -117,44 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ArrowPF" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\ArrowPF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BackgroundCommonChoice0_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\BackgroundCommonChoice0.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CharactersBaseIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\CharactersBaseIC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CharactersCreatorIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\CharactersCreatorIC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DiceRollerIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\DiceRollerIC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Iamhero0_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\Iamhero0,1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Iamhero0_1gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\Iamhero0,1gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Iammaster0_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\Iammaster0,1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Iammaster0_1gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\Iammaster0,1gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ItemsBaseIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\ItemsBaseIC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MonstersBaseIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\MonstersBaseIC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PlayersFormFon0_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\PlayersFormFon0,1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SpellsBaseIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Materials\SpellsBaseIC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
