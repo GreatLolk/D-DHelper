@@ -63,6 +63,16 @@ namespace D_DHelper.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AdneturesJournalIC {
+            get {
+                object obj = ResourceManager.GetObject("AdneturesJournalIC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ArrowPF {
             get {
                 object obj = ResourceManager.GetObject("ArrowPF", resourceCulture);
@@ -153,6 +163,16 @@ namespace D_DHelper.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap InititativeCounterIC {
+            get {
+                object obj = ResourceManager.GetObject("InititativeCounterIC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ItemsBaseIC {
             get {
                 object obj = ResourceManager.GetObject("ItemsBaseIC", resourceCulture);
@@ -163,9 +183,29 @@ namespace D_DHelper.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MastersFormFon0_1 {
+            get {
+                object obj = ResourceManager.GetObject("MastersFormFon0_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MonstersBaseIC {
             get {
                 object obj = ResourceManager.GetObject("MonstersBaseIC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OwnContentBuilderIC {
+            get {
+                object obj = ResourceManager.GetObject("OwnContentBuilderIC", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
