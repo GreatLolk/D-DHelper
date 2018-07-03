@@ -65,6 +65,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::D_DHelper.Properties.Resources.CharactersCreatorIC;
             this.pictureBox2.Location = new System.Drawing.Point(216, 158);
             this.pictureBox2.Name = "pictureBox2";
@@ -76,6 +77,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::D_DHelper.Properties.Resources.CharactersBaseIC;
             this.pictureBox3.Location = new System.Drawing.Point(586, 167);
             this.pictureBox3.Name = "pictureBox3";
@@ -87,6 +89,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::D_DHelper.Properties.Resources.DiceRollerIC;
             this.pictureBox4.Location = new System.Drawing.Point(977, 158);
             this.pictureBox4.Name = "pictureBox4";
@@ -98,6 +101,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::D_DHelper.Properties.Resources.SpellsBaseIC;
             this.pictureBox5.Location = new System.Drawing.Point(191, 410);
             this.pictureBox5.Name = "pictureBox5";
@@ -109,6 +113,7 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Image = global::D_DHelper.Properties.Resources.ItemsBaseIC;
             this.pictureBox6.Location = new System.Drawing.Point(599, 418);
             this.pictureBox6.Name = "pictureBox6";
@@ -120,6 +125,7 @@
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Image = global::D_DHelper.Properties.Resources.MonstersBaseIC;
             this.pictureBox7.Location = new System.Drawing.Point(958, 410);
             this.pictureBox7.Name = "pictureBox7";
@@ -205,7 +211,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::D_DHelper.Properties.Resources.PlayersFormFon0_1;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
