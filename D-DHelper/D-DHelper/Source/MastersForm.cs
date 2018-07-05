@@ -12,6 +12,8 @@ namespace D_DHelper
 {
     public partial class MastersForm : Form
     {
+        private Form prmainform; // = CommonChoiceForm
+
         public MastersForm()
         {
             InitializeComponent();
@@ -20,7 +22,19 @@ namespace D_DHelper
         public MastersForm(Form mainform)
         {
             InitializeComponent();
+            prmainform = mainform;
             mainform.Hide();
+        }
+
+        public static void BackToCommonChooseForm(Form closingform, Form mainform)
+        {
+            closingform.Hide();
+            mainform.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            BackToCommonChooseForm(this, prmainform);
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
