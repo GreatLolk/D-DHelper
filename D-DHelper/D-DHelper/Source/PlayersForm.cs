@@ -32,7 +32,7 @@ namespace D_DHelper
             mainform.Show();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e) // Back to CommonChooseForm
         {
             BackToCommonChooseForm(this, prmainform);
         }

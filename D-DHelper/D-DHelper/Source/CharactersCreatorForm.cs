@@ -16,5 +16,10 @@ namespace D_DHelper.Source
         {
             InitializeComponent();
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
