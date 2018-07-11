@@ -39,7 +39,7 @@ namespace D_DHelper
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            CharactersCreator.OpenCharactersCreator();
+            CharactersCreator.OpenCharactersCreator(this);
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

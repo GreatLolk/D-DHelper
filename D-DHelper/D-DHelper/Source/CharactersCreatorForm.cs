@@ -8,18 +8,33 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace D_DHelper.Source
+namespace D_DHelper
 {
     public partial class CharactersCreatorForm : Form
     {
+        private Form prmainform; // = CommonChoiceForm
+
         public CharactersCreatorForm()
         {
             InitializeComponent();
         }
 
-        private void pictureBox7_Click(object sender, EventArgs e)
+        public CharactersCreatorForm(Form mainform)
         {
+            InitializeComponent();
+            prmainform = mainform;
+            mainform.Hide();
+        }
 
+        public static void BackToCommonChooseForm(Form closingform, Form mainform)
+        {
+            closingform.Hide();
+            mainform.Show();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e) // Back to Players or Masters Form
+        {
+            BackToCommonChooseForm(this, prmainform);
         }
     }
 }

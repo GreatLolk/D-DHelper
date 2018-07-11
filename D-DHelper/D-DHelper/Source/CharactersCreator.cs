@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Excel = Microsoft.Office.Interop.Excel;
 
 namespace D_DHelper
@@ -51,13 +52,14 @@ namespace D_DHelper
         public static char CharactersSurvival { get; set; }
         // Characters variables
 
-        public static void CreateCharacter()
+        public static void CreateCharacter(CharactersCreatorForm characterscreatorform)
         {
             
         }
         
-        public static void OpenCharactersCreator()
+        public static void OpenCharactersCreator(Form form)
         {
+            CharactersCreatorForm characterscreatorform = new CharactersCreatorForm(form);
         }
     }
 }

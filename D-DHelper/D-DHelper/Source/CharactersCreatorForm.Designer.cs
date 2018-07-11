@@ -1,4 +1,4 @@
-﻿namespace D_DHelper.Source
+﻿namespace D_DHelper
 {
     partial class CharactersCreatorForm
     {
@@ -35,7 +35,23 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.CharactersNameTextBox = new System.Windows.Forms.TextBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.ClassTextbox = new System.Windows.Forms.TextBox();
+            this.LevelTextbox = new System.Windows.Forms.TextBox();
+            this.AlignmentTextbox = new System.Windows.Forms.TextBox();
+            this.RaceTextbox = new System.Windows.Forms.TextBox();
+            this.ACTextbox = new System.Windows.Forms.TextBox();
+            this.InitiativeTextbox = new System.Windows.Forms.TextBox();
+            this.SpeedTextbox = new System.Windows.Forms.TextBox();
+            this.AttacksTextbox = new System.Windows.Forms.TextBox();
+            this.OtherTextbox = new System.Windows.Forms.TextBox();
+            this.STRTextbox = new System.Windows.Forms.TextBox();
+            this.DEXTextbox = new System.Windows.Forms.TextBox();
+            this.CONTextbox = new System.Windows.Forms.TextBox();
+            this.INTTextbox = new System.Windows.Forms.TextBox();
+            this.WISTextbox = new System.Windows.Forms.TextBox();
+            this.CHATextbox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -43,6 +59,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -59,7 +76,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::D_DHelper.Properties.Resources.CharactersName;
-            this.pictureBox2.Location = new System.Drawing.Point(23, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(66, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(284, 135);
             this.pictureBox2.TabIndex = 1;
@@ -114,15 +131,130 @@
             this.pictureBox7.Size = new System.Drawing.Size(1141, 608);
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
-            // textBox1
+            // CharactersNameTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(46, 105);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(211, 20);
-            this.textBox1.TabIndex = 7;
-            this.textBox1.Visible = false;
+            this.CharactersNameTextBox.Location = new System.Drawing.Point(88, 106);
+            this.CharactersNameTextBox.Name = "CharactersNameTextBox";
+            this.CharactersNameTextBox.Size = new System.Drawing.Size(211, 20);
+            this.CharactersNameTextBox.TabIndex = 7;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox8.Image = global::D_DHelper.Properties.Resources.ArrowPF;
+            this.pictureBox8.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(28, 38);
+            this.pictureBox8.TabIndex = 8;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            // 
+            // ClassTextbox
+            // 
+            this.ClassTextbox.Location = new System.Drawing.Point(344, 93);
+            this.ClassTextbox.Name = "ClassTextbox";
+            this.ClassTextbox.Size = new System.Drawing.Size(211, 20);
+            this.ClassTextbox.TabIndex = 9;
+            // 
+            // LevelTextbox
+            // 
+            this.LevelTextbox.Location = new System.Drawing.Point(580, 106);
+            this.LevelTextbox.Name = "LevelTextbox";
+            this.LevelTextbox.Size = new System.Drawing.Size(211, 20);
+            this.LevelTextbox.TabIndex = 10;
+            // 
+            // AlignmentTextbox
+            // 
+            this.AlignmentTextbox.Location = new System.Drawing.Point(1057, 119);
+            this.AlignmentTextbox.Name = "AlignmentTextbox";
+            this.AlignmentTextbox.Size = new System.Drawing.Size(211, 20);
+            this.AlignmentTextbox.TabIndex = 11;
+            // 
+            // RaceTextbox
+            // 
+            this.RaceTextbox.Location = new System.Drawing.Point(822, 116);
+            this.RaceTextbox.Name = "RaceTextbox";
+            this.RaceTextbox.Size = new System.Drawing.Size(211, 20);
+            this.RaceTextbox.TabIndex = 11;
+            // 
+            // ACTextbox
+            // 
+            this.ACTextbox.Location = new System.Drawing.Point(488, 225);
+            this.ACTextbox.Name = "ACTextbox";
+            this.ACTextbox.Size = new System.Drawing.Size(211, 20);
+            this.ACTextbox.TabIndex = 12;
+            // 
+            // InitiativeTextbox
+            // 
+            this.InitiativeTextbox.Location = new System.Drawing.Point(741, 208);
+            this.InitiativeTextbox.Name = "InitiativeTextbox";
+            this.InitiativeTextbox.Size = new System.Drawing.Size(211, 20);
+            this.InitiativeTextbox.TabIndex = 13;
+            // 
+            // SpeedTextbox
+            // 
+            this.SpeedTextbox.Location = new System.Drawing.Point(1014, 208);
+            this.SpeedTextbox.Name = "SpeedTextbox";
+            this.SpeedTextbox.Size = new System.Drawing.Size(211, 20);
+            this.SpeedTextbox.TabIndex = 14;
+            // 
+            // AttacksTextbox
+            // 
+            this.AttacksTextbox.Location = new System.Drawing.Point(535, 350);
+            this.AttacksTextbox.Name = "AttacksTextbox";
+            this.AttacksTextbox.Size = new System.Drawing.Size(211, 20);
+            this.AttacksTextbox.TabIndex = 15;
+            // 
+            // OtherTextbox
+            // 
+            this.OtherTextbox.Location = new System.Drawing.Point(933, 399);
+            this.OtherTextbox.Name = "OtherTextbox";
+            this.OtherTextbox.Size = new System.Drawing.Size(211, 20);
+            this.OtherTextbox.TabIndex = 16;
+            // 
+            // STRTextbox
+            // 
+            this.STRTextbox.Location = new System.Drawing.Point(88, 208);
+            this.STRTextbox.Name = "STRTextbox";
+            this.STRTextbox.Size = new System.Drawing.Size(211, 20);
+            this.STRTextbox.TabIndex = 17;
+            // 
+            // DEXTextbox
+            // 
+            this.DEXTextbox.Location = new System.Drawing.Point(88, 260);
+            this.DEXTextbox.Name = "DEXTextbox";
+            this.DEXTextbox.Size = new System.Drawing.Size(211, 20);
+            this.DEXTextbox.TabIndex = 18;
+            // 
+            // CONTextbox
+            // 
+            this.CONTextbox.Location = new System.Drawing.Point(88, 297);
+            this.CONTextbox.Name = "CONTextbox";
+            this.CONTextbox.Size = new System.Drawing.Size(211, 20);
+            this.CONTextbox.TabIndex = 19;
+            // 
+            // INTTextbox
+            // 
+            this.INTTextbox.Location = new System.Drawing.Point(88, 337);
+            this.INTTextbox.Name = "INTTextbox";
+            this.INTTextbox.Size = new System.Drawing.Size(211, 20);
+            this.INTTextbox.TabIndex = 20;
+            // 
+            // WISTextbox
+            // 
+            this.WISTextbox.Location = new System.Drawing.Point(88, 389);
+            this.WISTextbox.Name = "WISTextbox";
+            this.WISTextbox.Size = new System.Drawing.Size(211, 20);
+            this.WISTextbox.TabIndex = 21;
+            // 
+            // CHATextbox
+            // 
+            this.CHATextbox.Location = new System.Drawing.Point(88, 432);
+            this.CHATextbox.Name = "CHATextbox";
+            this.CHATextbox.Size = new System.Drawing.Size(211, 20);
+            this.CHATextbox.TabIndex = 22;
             // 
             // CharactersCreatorForm
             // 
@@ -130,7 +262,23 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::D_DHelper.Properties.Resources.CharactersCreatorFon;
             this.ClientSize = new System.Drawing.Size(1280, 720);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.CHATextbox);
+            this.Controls.Add(this.WISTextbox);
+            this.Controls.Add(this.INTTextbox);
+            this.Controls.Add(this.CONTextbox);
+            this.Controls.Add(this.DEXTextbox);
+            this.Controls.Add(this.STRTextbox);
+            this.Controls.Add(this.OtherTextbox);
+            this.Controls.Add(this.AttacksTextbox);
+            this.Controls.Add(this.SpeedTextbox);
+            this.Controls.Add(this.InitiativeTextbox);
+            this.Controls.Add(this.ACTextbox);
+            this.Controls.Add(this.RaceTextbox);
+            this.Controls.Add(this.AlignmentTextbox);
+            this.Controls.Add(this.LevelTextbox);
+            this.Controls.Add(this.ClassTextbox);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.CharactersNameTextBox);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -150,6 +298,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,6 +313,22 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        public System.Windows.Forms.TextBox CharactersNameTextBox;
+        public System.Windows.Forms.TextBox ClassTextbox;
+        public System.Windows.Forms.TextBox LevelTextbox;
+        public System.Windows.Forms.TextBox AlignmentTextbox;
+        public System.Windows.Forms.TextBox RaceTextbox;
+        public System.Windows.Forms.TextBox ACTextbox;
+        public System.Windows.Forms.TextBox InitiativeTextbox;
+        public System.Windows.Forms.TextBox SpeedTextbox;
+        public System.Windows.Forms.TextBox AttacksTextbox;
+        public System.Windows.Forms.TextBox OtherTextbox;
+        public System.Windows.Forms.TextBox STRTextbox;
+        public System.Windows.Forms.TextBox DEXTextbox;
+        public System.Windows.Forms.TextBox CONTextbox;
+        public System.Windows.Forms.TextBox INTTextbox;
+        public System.Windows.Forms.TextBox WISTextbox;
+        public System.Windows.Forms.TextBox CHATextbox;
     }
 }
