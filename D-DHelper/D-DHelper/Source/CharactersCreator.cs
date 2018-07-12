@@ -15,46 +15,130 @@ namespace D_DHelper
         private static Excel.Workbook CharactersBaseWorkbook = CharactersBaseApplication.Workbooks.Open(@"C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\Materials\CharactersBase.xlsx", 0, true, 5, "", "", true, Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0); // CharactersBase folder
         private static Excel.Worksheet CharactersBaseWorksheet = (Excel.Worksheet)CharactersBaseWorkbook.Worksheets.get_Item(1); // Cells with needed data
         private static Excel.Range CharactersBaseRange; // Cell or Cells
+        private static int Key = 1;
         // XLSX MODULE
-
-        // Characters variables
-        public static string CharactersName { get; set; }
-        public static string CharactersRace { get; set; }
-        public static string CharactersClass { get; set; }
-        public static string CharactersAlignment { get; set; }
-        public static string CharactersLevelXP { get; set; }
-        public static int CharactersStrength { get; set; }
-        public static int CharactersDexterity { get; set; }
-        public static int CharactersConstitution { get; set; }
-        public static int CharactersIntelligence { get; set; }
-        public static int CharactersWisdom { get; set; }
-        public static int CharactersCharisma { get; set; }
-        public static int CharactersArmorClass { get; set; }
-        public static int CharactersInitiative { get; set; }
-        public static int CharactersSpeed { get; set; }
-        public static char CharactersAcrobatics { get; set; }
-        public static char CharactersAnimalHandlings { get; set; }
-        public static char CharactersArcana { get; set; }
-        public static char CharactersAthletics { get; set; }
-        public static char CharactersDeception { get; set; }
-        public static char CharactersHistory { get; set; }
-        public static char CharactersInsight { get; set; }
-        public static char CharactersIntimidation { get; set; }
-        public static char CharactersInvestigation { get; set; }
-        public static char CharactersMedicine { get; set; }
-        public static char CharactersNature { get; set; }
-        public static char CharactersPerception { get; set; }
-        public static char CharactersPerformance { get; set; }
-        public static char CharactersPersuasion { get; set; }
-        public static char CharactersReligion { get; set; }
-        public static char CharactersSleightOfHand { get; set; }
-        public static char CharactersStealh { get; set; }
-        public static char CharactersSurvival { get; set; }
-        // Characters variables
 
         public static void CreateCharacter(CharactersCreatorForm characterscreatorform)
         {
+            while (true) // Checking place for new character
+            {
+                CharactersBaseRange = CharactersBaseWorksheet.get_Range("A" + Key, Type.Missing);
+                if (CharactersBaseRange.Value2 = null)
+                    break;
+                else
+                    Key++;
+            }
+
+            CharactersBaseRange.Value2 = Key; // Generate Key
             
+            // Character's information
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("B" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("C" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.RaceTextbox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("D" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.ClassTextbox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("E" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.AlignmentTextbox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("F" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.LevelTextbox.Text;
+
+            // Characteristics
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("G" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.STRTextbox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("H" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.DEXTextbox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("I" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CONTextbox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("J" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.INTTextbox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("K" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.WISTextbox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("L" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CHATextbox.Text;
+            //
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("M" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.ACTextbox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("N" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.InitiativeTextbox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("O" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.SpeedTextbox.Text;
+
+            // Skills
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("P" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("Q" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("R" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("S" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("T" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("U" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("V" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("W" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("X" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("Y" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("Z" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AA" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AB" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AC" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AD" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AE" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AF" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AG" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+            //Skills
+
+            // Description
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AH" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.AttacksTextbox.Text;
+
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AI" + Key, Type.Missing);
+            CharactersBaseRange.Value2 = characterscreatorform.OtherTextbox.Text;
+            //
         }
         
         public static void OpenCharactersCreator(Form form)
