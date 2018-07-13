@@ -128,7 +128,7 @@
             this.pictureBox7.Image = global::D_DHelper.Properties.Resources.PlatesCC;
             this.pictureBox7.Location = new System.Drawing.Point(165, 142);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(1141, 608);
+            this.pictureBox7.Size = new System.Drawing.Size(1116, 578);
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
             // 
@@ -153,107 +153,109 @@
             // 
             // ClassTextbox
             // 
-            this.ClassTextbox.Location = new System.Drawing.Point(344, 93);
+            this.ClassTextbox.Location = new System.Drawing.Point(395, 82);
             this.ClassTextbox.Name = "ClassTextbox";
-            this.ClassTextbox.Size = new System.Drawing.Size(211, 20);
+            this.ClassTextbox.Size = new System.Drawing.Size(135, 20);
             this.ClassTextbox.TabIndex = 9;
             // 
             // LevelTextbox
             // 
-            this.LevelTextbox.Location = new System.Drawing.Point(580, 106);
+            this.LevelTextbox.Location = new System.Drawing.Point(597, 82);
             this.LevelTextbox.Name = "LevelTextbox";
-            this.LevelTextbox.Size = new System.Drawing.Size(211, 20);
+            this.LevelTextbox.Size = new System.Drawing.Size(116, 20);
             this.LevelTextbox.TabIndex = 10;
             // 
             // AlignmentTextbox
             // 
-            this.AlignmentTextbox.Location = new System.Drawing.Point(1057, 119);
+            this.AlignmentTextbox.Location = new System.Drawing.Point(963, 82);
             this.AlignmentTextbox.Name = "AlignmentTextbox";
-            this.AlignmentTextbox.Size = new System.Drawing.Size(211, 20);
+            this.AlignmentTextbox.Size = new System.Drawing.Size(138, 20);
             this.AlignmentTextbox.TabIndex = 11;
             // 
             // RaceTextbox
             // 
-            this.RaceTextbox.Location = new System.Drawing.Point(822, 116);
+            this.RaceTextbox.Location = new System.Drawing.Point(789, 82);
             this.RaceTextbox.Name = "RaceTextbox";
-            this.RaceTextbox.Size = new System.Drawing.Size(211, 20);
+            this.RaceTextbox.Size = new System.Drawing.Size(111, 20);
             this.RaceTextbox.TabIndex = 11;
             // 
             // ACTextbox
             // 
-            this.ACTextbox.Location = new System.Drawing.Point(488, 225);
+            this.ACTextbox.Location = new System.Drawing.Point(567, 200);
             this.ACTextbox.Name = "ACTextbox";
-            this.ACTextbox.Size = new System.Drawing.Size(211, 20);
+            this.ACTextbox.Size = new System.Drawing.Size(49, 20);
             this.ACTextbox.TabIndex = 12;
             // 
             // InitiativeTextbox
             // 
-            this.InitiativeTextbox.Location = new System.Drawing.Point(741, 208);
+            this.InitiativeTextbox.Location = new System.Drawing.Point(754, 196);
             this.InitiativeTextbox.Name = "InitiativeTextbox";
-            this.InitiativeTextbox.Size = new System.Drawing.Size(211, 20);
+            this.InitiativeTextbox.Size = new System.Drawing.Size(128, 20);
             this.InitiativeTextbox.TabIndex = 13;
             // 
             // SpeedTextbox
             // 
-            this.SpeedTextbox.Location = new System.Drawing.Point(1014, 208);
+            this.SpeedTextbox.Location = new System.Drawing.Point(1075, 200);
             this.SpeedTextbox.Name = "SpeedTextbox";
-            this.SpeedTextbox.Size = new System.Drawing.Size(211, 20);
+            this.SpeedTextbox.Size = new System.Drawing.Size(125, 20);
             this.SpeedTextbox.TabIndex = 14;
             // 
             // AttacksTextbox
             // 
-            this.AttacksTextbox.Location = new System.Drawing.Point(535, 350);
+            this.AttacksTextbox.Location = new System.Drawing.Point(452, 312);
+            this.AttacksTextbox.Multiline = true;
             this.AttacksTextbox.Name = "AttacksTextbox";
-            this.AttacksTextbox.Size = new System.Drawing.Size(211, 20);
+            this.AttacksTextbox.Size = new System.Drawing.Size(310, 271);
             this.AttacksTextbox.TabIndex = 15;
             // 
             // OtherTextbox
             // 
-            this.OtherTextbox.Location = new System.Drawing.Point(933, 399);
+            this.OtherTextbox.Location = new System.Drawing.Point(846, 279);
+            this.OtherTextbox.Multiline = true;
             this.OtherTextbox.Name = "OtherTextbox";
-            this.OtherTextbox.Size = new System.Drawing.Size(211, 20);
+            this.OtherTextbox.Size = new System.Drawing.Size(405, 380);
             this.OtherTextbox.TabIndex = 16;
             // 
             // STRTextbox
             // 
             this.STRTextbox.Location = new System.Drawing.Point(88, 208);
             this.STRTextbox.Name = "STRTextbox";
-            this.STRTextbox.Size = new System.Drawing.Size(211, 20);
+            this.STRTextbox.Size = new System.Drawing.Size(48, 20);
             this.STRTextbox.TabIndex = 17;
             // 
             // DEXTextbox
             // 
-            this.DEXTextbox.Location = new System.Drawing.Point(88, 260);
+            this.DEXTextbox.Location = new System.Drawing.Point(88, 256);
             this.DEXTextbox.Name = "DEXTextbox";
-            this.DEXTextbox.Size = new System.Drawing.Size(211, 20);
+            this.DEXTextbox.Size = new System.Drawing.Size(48, 20);
             this.DEXTextbox.TabIndex = 18;
             // 
             // CONTextbox
             // 
             this.CONTextbox.Location = new System.Drawing.Point(88, 297);
             this.CONTextbox.Name = "CONTextbox";
-            this.CONTextbox.Size = new System.Drawing.Size(211, 20);
+            this.CONTextbox.Size = new System.Drawing.Size(48, 20);
             this.CONTextbox.TabIndex = 19;
             // 
             // INTTextbox
             // 
-            this.INTTextbox.Location = new System.Drawing.Point(88, 337);
+            this.INTTextbox.Location = new System.Drawing.Point(88, 344);
             this.INTTextbox.Name = "INTTextbox";
-            this.INTTextbox.Size = new System.Drawing.Size(211, 20);
+            this.INTTextbox.Size = new System.Drawing.Size(48, 20);
             this.INTTextbox.TabIndex = 20;
             // 
             // WISTextbox
             // 
             this.WISTextbox.Location = new System.Drawing.Point(88, 389);
             this.WISTextbox.Name = "WISTextbox";
-            this.WISTextbox.Size = new System.Drawing.Size(211, 20);
+            this.WISTextbox.Size = new System.Drawing.Size(48, 20);
             this.WISTextbox.TabIndex = 21;
             // 
             // CHATextbox
             // 
             this.CHATextbox.Location = new System.Drawing.Point(88, 432);
             this.CHATextbox.Name = "CHATextbox";
-            this.CHATextbox.Size = new System.Drawing.Size(211, 20);
+            this.CHATextbox.Size = new System.Drawing.Size(48, 20);
             this.CHATextbox.TabIndex = 22;
             // 
             // CharactersCreatorForm
@@ -288,7 +290,6 @@
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CharactersCreatorForm";
-            this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CharactersCreatorForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

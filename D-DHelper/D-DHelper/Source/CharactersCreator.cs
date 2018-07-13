@@ -30,51 +30,29 @@ namespace D_DHelper
             }
 
             CharactersBaseRange.Value2 = Key; // Generate Key
-            
+
             // Character's information
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("B" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
 
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("C" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.RaceTextbox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("D" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.ClassTextbox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("E" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.AlignmentTextbox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("F" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.LevelTextbox.Text;
+            FromTextboxToCell("B", characterscreatorform.CharactersNameTextBox);
+            FromTextboxToCell("C", characterscreatorform.RaceTextbox);
+            FromTextboxToCell("D", characterscreatorform.ClassTextbox);
+            FromTextboxToCell("E", characterscreatorform.AlignmentTextbox);
+            FromTextboxToCell("F", characterscreatorform.LevelTextbox);
 
             // Characteristics
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("G" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.STRTextbox.Text;
 
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("H" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.DEXTextbox.Text;
+            FromTextboxToCell("G", characterscreatorform.STRTextbox);
+            FromTextboxToCell("H", characterscreatorform.DEXTextbox);
+            FromTextboxToCell("I", characterscreatorform.CONTextbox);
+            FromTextboxToCell("J", characterscreatorform.INTTextbox);
+            FromTextboxToCell("K", characterscreatorform.WISTextbox);
+            FromTextboxToCell("L", characterscreatorform.CHATextbox);
 
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("I" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CONTextbox.Text;
+            // AC, Init, Speed
 
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("J" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.INTTextbox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("K" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.WISTextbox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("L" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CHATextbox.Text;
-            //
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("M" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.ACTextbox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("N" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.InitiativeTextbox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("O" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.SpeedTextbox.Text;
+            FromTextboxToCell("M", characterscreatorform.ACTextbox);
+            FromTextboxToCell("N", characterscreatorform.InitiativeTextbox);
+            FromTextboxToCell("O", characterscreatorform.SpeedTextbox);
 
             // Skills
             CharactersBaseRange = CharactersBaseWorksheet.get_Range("P" + Key, Type.Missing);
@@ -130,20 +108,21 @@ namespace D_DHelper
 
             CharactersBaseRange = CharactersBaseWorksheet.get_Range("AG" + Key, Type.Missing);
             CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-            //Skills
 
             // Description
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AH" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.AttacksTextbox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AI" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.OtherTextbox.Text;
-            //
+            FromTextboxToCell("AH", characterscreatorform.AttacksTextbox);
+            FromTextboxToCell("AI", characterscreatorform.OtherTextbox);
         }
         
         public static void OpenCharactersCreator(Form form)
         {
             CharactersCreatorForm characterscreatorform = new CharactersCreatorForm(form);
+        }
+
+        private static void FromTextboxToCell(string Letter, TextBox textbox)
+        {
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range(Letter + Key, Type.Missing);
+            CharactersBaseRange.Value2 = textbox.Text;
         }
     }
 }
