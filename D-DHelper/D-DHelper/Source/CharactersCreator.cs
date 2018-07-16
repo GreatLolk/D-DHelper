@@ -117,6 +117,7 @@ namespace D_DHelper
         public static void OpenCharactersCreator(Form form)
         {
             CharactersCreatorForm characterscreatorform = new CharactersCreatorForm(form);
+            characterscreatorform.Show();
         }
 
         private static void FromTextboxToCell(string Letter, TextBox textbox)

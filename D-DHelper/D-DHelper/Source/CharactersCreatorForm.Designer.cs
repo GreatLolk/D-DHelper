@@ -134,9 +134,10 @@
             // 
             // CharactersNameTextBox
             // 
-            this.CharactersNameTextBox.Location = new System.Drawing.Point(88, 106);
+            this.CharactersNameTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharactersNameTextBox.Location = new System.Drawing.Point(88, 114);
             this.CharactersNameTextBox.Name = "CharactersNameTextBox";
-            this.CharactersNameTextBox.Size = new System.Drawing.Size(211, 20);
+            this.CharactersNameTextBox.Size = new System.Drawing.Size(211, 13);
             this.CharactersNameTextBox.TabIndex = 7;
             // 
             // pictureBox8
