@@ -211,6 +211,8 @@
             this.ACTextbox.Name = "ACTextbox";
             this.ACTextbox.Size = new System.Drawing.Size(49, 20);
             this.ACTextbox.TabIndex = 12;
+            this.ACTextbox.Visible = false;
+            this.ACTextbox.MouseLeave += new System.EventHandler(this.ACTextbox_MouseLeave);
             // 
             // InitiativeTextbox
             // 
@@ -218,6 +220,8 @@
             this.InitiativeTextbox.Name = "InitiativeTextbox";
             this.InitiativeTextbox.Size = new System.Drawing.Size(128, 20);
             this.InitiativeTextbox.TabIndex = 13;
+            this.InitiativeTextbox.Visible = false;
+            this.InitiativeTextbox.MouseLeave += new System.EventHandler(this.InitiativeTextbox_MouseLeave);
             // 
             // SpeedTextbox
             // 
@@ -225,6 +229,8 @@
             this.SpeedTextbox.Name = "SpeedTextbox";
             this.SpeedTextbox.Size = new System.Drawing.Size(125, 20);
             this.SpeedTextbox.TabIndex = 14;
+            this.SpeedTextbox.Visible = false;
+            this.SpeedTextbox.MouseLeave += new System.EventHandler(this.SpeedTextbox_MouseLeave);
             // 
             // AttacksTextbox
             // 
@@ -233,6 +239,7 @@
             this.AttacksTextbox.Name = "AttacksTextbox";
             this.AttacksTextbox.Size = new System.Drawing.Size(310, 271);
             this.AttacksTextbox.TabIndex = 15;
+            this.AttacksTextbox.MouseLeave += new System.EventHandler(this.AttacksTextbox_MouseLeave);
             // 
             // OtherTextbox
             // 
@@ -241,6 +248,7 @@
             this.OtherTextbox.Name = "OtherTextbox";
             this.OtherTextbox.Size = new System.Drawing.Size(405, 380);
             this.OtherTextbox.TabIndex = 16;
+            this.OtherTextbox.MouseLeave += new System.EventHandler(this.OtherTextbox_MouseLeave);
             // 
             // STRTextbox
             // 
@@ -248,6 +256,8 @@
             this.STRTextbox.Name = "STRTextbox";
             this.STRTextbox.Size = new System.Drawing.Size(48, 20);
             this.STRTextbox.TabIndex = 17;
+            this.STRTextbox.Visible = false;
+            this.STRTextbox.MouseLeave += new System.EventHandler(this.STRTextbox_MouseLeave);
             // 
             // DEXTextbox
             // 
@@ -255,6 +265,8 @@
             this.DEXTextbox.Name = "DEXTextbox";
             this.DEXTextbox.Size = new System.Drawing.Size(48, 20);
             this.DEXTextbox.TabIndex = 18;
+            this.DEXTextbox.Visible = false;
+            this.DEXTextbox.MouseLeave += new System.EventHandler(this.DEXTextbox_MouseLeave);
             // 
             // CONTextbox
             // 
@@ -262,6 +274,8 @@
             this.CONTextbox.Name = "CONTextbox";
             this.CONTextbox.Size = new System.Drawing.Size(48, 20);
             this.CONTextbox.TabIndex = 19;
+            this.CONTextbox.Visible = false;
+            this.CONTextbox.MouseLeave += new System.EventHandler(this.CONTextbox_MouseLeave);
             // 
             // INTTextbox
             // 
@@ -269,6 +283,8 @@
             this.INTTextbox.Name = "INTTextbox";
             this.INTTextbox.Size = new System.Drawing.Size(48, 20);
             this.INTTextbox.TabIndex = 20;
+            this.INTTextbox.Visible = false;
+            this.INTTextbox.MouseLeave += new System.EventHandler(this.INTTextbox_MouseLeave);
             // 
             // WISTextbox
             // 
@@ -276,6 +292,8 @@
             this.WISTextbox.Name = "WISTextbox";
             this.WISTextbox.Size = new System.Drawing.Size(48, 20);
             this.WISTextbox.TabIndex = 21;
+            this.WISTextbox.Visible = false;
+            this.WISTextbox.MouseLeave += new System.EventHandler(this.WISTextbox_MouseLeave);
             // 
             // CHATextbox
             // 
@@ -283,6 +301,8 @@
             this.CHATextbox.Name = "CHATextbox";
             this.CHATextbox.Size = new System.Drawing.Size(48, 20);
             this.CHATextbox.TabIndex = 22;
+            this.CHATextbox.Visible = false;
+            this.CHATextbox.MouseLeave += new System.EventHandler(this.CHATextbox_MouseLeave);
             // 
             // label1
             // 
@@ -355,11 +375,12 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Calligraphic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label6.Location = new System.Drawing.Point(568, 225);
+            this.label6.Location = new System.Drawing.Point(567, 200);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 20);
+            this.label6.Size = new System.Drawing.Size(49, 20);
             this.label6.TabIndex = 28;
-            this.label6.Text = "Label";
+            this.label6.Text = "        ";
+            this.label6.MouseEnter += new System.EventHandler(this.label6_MouseEnter);
             // 
             // label7
             // 
@@ -367,11 +388,12 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Calligraphic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label7.Location = new System.Drawing.Point(797, 198);
+            this.label7.Location = new System.Drawing.Point(771, 194);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 20);
+            this.label7.Size = new System.Drawing.Size(94, 20);
             this.label7.TabIndex = 29;
-            this.label7.Text = "Label";
+            this.label7.Text = "                 ";
+            this.label7.MouseEnter += new System.EventHandler(this.label7_MouseEnter);
             // 
             // label8
             // 
@@ -379,11 +401,12 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Calligraphic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label8.Location = new System.Drawing.Point(1116, 200);
+            this.label8.Location = new System.Drawing.Point(1094, 200);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(48, 20);
+            this.label8.Size = new System.Drawing.Size(94, 20);
             this.label8.TabIndex = 30;
-            this.label8.Text = "Label";
+            this.label8.Text = "                 ";
+            this.label8.MouseEnter += new System.EventHandler(this.label8_MouseEnter);
             // 
             // label9
             // 
@@ -391,11 +414,13 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Calligraphic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label9.Location = new System.Drawing.Point(568, 366);
+            this.label9.Location = new System.Drawing.Point(448, 310);
+            this.label9.MinimumSize = new System.Drawing.Size(315, 275);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(48, 20);
+            this.label9.Size = new System.Drawing.Size(315, 275);
             this.label9.TabIndex = 31;
-            this.label9.Text = "Label";
+            this.label9.Text = "                 ";
+            this.label9.MouseEnter += new System.EventHandler(this.label9_MouseEnter);
             // 
             // label10
             // 
@@ -403,11 +428,13 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Calligraphic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label10.Location = new System.Drawing.Point(1028, 366);
+            this.label10.Location = new System.Drawing.Point(842, 279);
+            this.label10.MinimumSize = new System.Drawing.Size(410, 380);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(48, 20);
+            this.label10.Size = new System.Drawing.Size(410, 380);
             this.label10.TabIndex = 32;
-            this.label10.Text = "Label";
+            this.label10.Text = "                 ";
+            this.label10.MouseEnter += new System.EventHandler(this.label10_MouseEnter);
             // 
             // label11
             // 
@@ -415,11 +442,12 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Calligraphic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label11.Location = new System.Drawing.Point(88, 225);
+            this.label11.Location = new System.Drawing.Point(88, 208);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(48, 20);
+            this.label11.Size = new System.Drawing.Size(49, 20);
             this.label11.TabIndex = 33;
-            this.label11.Text = "Label";
+            this.label11.Text = "        ";
+            this.label11.MouseEnter += new System.EventHandler(this.label11_MouseEnter);
             // 
             // label12
             // 
@@ -427,11 +455,12 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Calligraphic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label12.Location = new System.Drawing.Point(88, 274);
+            this.label12.Location = new System.Drawing.Point(88, 255);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(48, 20);
+            this.label12.Size = new System.Drawing.Size(49, 20);
             this.label12.TabIndex = 34;
-            this.label12.Text = "Label";
+            this.label12.Text = "        ";
+            this.label12.MouseEnter += new System.EventHandler(this.label12_MouseEnter);
             // 
             // label13
             // 
@@ -439,11 +468,12 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Calligraphic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label13.Location = new System.Drawing.Point(88, 320);
+            this.label13.Location = new System.Drawing.Point(88, 297);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(48, 20);
+            this.label13.Size = new System.Drawing.Size(49, 20);
             this.label13.TabIndex = 35;
-            this.label13.Text = "Label";
+            this.label13.Text = "        ";
+            this.label13.MouseEnter += new System.EventHandler(this.label13_MouseEnter);
             // 
             // label14
             // 
@@ -451,11 +481,12 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Calligraphic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label14.Location = new System.Drawing.Point(88, 366);
+            this.label14.Location = new System.Drawing.Point(88, 343);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(48, 20);
+            this.label14.Size = new System.Drawing.Size(49, 20);
             this.label14.TabIndex = 36;
-            this.label14.Text = "Label";
+            this.label14.Text = "        ";
+            this.label14.MouseEnter += new System.EventHandler(this.label14_MouseEnter);
             // 
             // label15
             // 
@@ -463,11 +494,12 @@
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Calligraphic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label15.Location = new System.Drawing.Point(88, 409);
+            this.label15.Location = new System.Drawing.Point(88, 389);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(48, 20);
             this.label15.TabIndex = 37;
-            this.label15.Text = "Label";
+            this.label15.Text = "        ";
+            this.label15.MouseEnter += new System.EventHandler(this.label15_MouseEnter);
             // 
             // label16
             // 
@@ -475,11 +507,12 @@
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Calligraphic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label16.Location = new System.Drawing.Point(88, 455);
+            this.label16.Location = new System.Drawing.Point(88, 432);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(48, 20);
             this.label16.TabIndex = 38;
-            this.label16.Text = "Label";
+            this.label16.Text = "        ";
+            this.label16.MouseEnter += new System.EventHandler(this.label16_MouseEnter);
             // 
             // CharactersCreatorForm
             // 
