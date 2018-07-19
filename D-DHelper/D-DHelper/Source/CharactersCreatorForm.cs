@@ -46,7 +46,7 @@ namespace D_DHelper
         private void OutTextToTextboxAndLabel(Label label, TextBox textbox) // For Textbox
         {
             textbox.Hide();
-            label.Text = textbox.Text; // If input is nothing ==> not activate tewxtbox again ==> Solve: Minimum Size
+            label.Text = textbox.Text; 
             label.Show();
         }
 
