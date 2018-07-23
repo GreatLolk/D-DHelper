@@ -55,59 +55,25 @@ namespace D_DHelper
             FromTextboxToCell("O", characterscreatorform.SpeedTextbox);
 
             // Skills
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("P" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
 
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("Q" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("R" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("S" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("T" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("U" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("V" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("W" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("X" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("Y" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("Z" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AA" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AB" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AC" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AD" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AE" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AF" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
-
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range("AG" + Key, Type.Missing);
-            CharactersBaseRange.Value2 = characterscreatorform.CharactersNameTextBox.Text;
+            FromCheckBoxToCell("P" + Key, characterscreatorform.checkBox1);
+            FromCheckBoxToCell("Q" + Key, characterscreatorform.checkBox2);
+            FromCheckBoxToCell("R" + Key, characterscreatorform.checkBox3);
+            FromCheckBoxToCell("S" + Key, characterscreatorform.checkBox4);
+            FromCheckBoxToCell("I" + Key, characterscreatorform.checkBox5);
+            FromCheckBoxToCell("U" + Key, characterscreatorform.checkBox6);
+            FromCheckBoxToCell("V" + Key, characterscreatorform.checkBox7);
+            FromCheckBoxToCell("W" + Key, characterscreatorform.checkBox8);
+            FromCheckBoxToCell("X" + Key, characterscreatorform.checkBox9);
+            FromCheckBoxToCell("Y" + Key, characterscreatorform.checkBox10);
+            FromCheckBoxToCell("Z" + Key, characterscreatorform.checkBox11);
+            FromCheckBoxToCell("AA" + Key, characterscreatorform.checkBox12);
+            FromCheckBoxToCell("AB" + Key, characterscreatorform.checkBox13);
+            FromCheckBoxToCell("AC" + Key, characterscreatorform.checkBox14);
+            FromCheckBoxToCell("AD" + Key, characterscreatorform.checkBox15);
+            FromCheckBoxToCell("AE" + Key, characterscreatorform.checkBox16);
+            FromCheckBoxToCell("AF" + Key, characterscreatorform.checkBox17);
+            FromCheckBoxToCell("AG" + Key, characterscreatorform.checkBox18);
 
             // Description
             FromTextboxToCell("AH", characterscreatorform.AttacksTextbox);
@@ -124,6 +90,21 @@ namespace D_DHelper
         {
             CharactersBaseRange = CharactersBaseWorksheet.get_Range(Letter + Key, Type.Missing);
             CharactersBaseRange.Value2 = textbox.Text;
+        }
+
+        private static void FromCheckBoxToCell(string Letter, CheckBox checkbox)
+        {
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range(Letter + Key, Type.Missing);
+            
+            if(checkbox.Checked == true)
+            {
+                CharactersBaseRange.Value2 = "+";
+            }
+
+            else
+            {
+                CharactersBaseRange.Value2 = "-";
+            }
         }
     }
 }
