@@ -22,8 +22,8 @@ namespace D_DHelper
         {
             while (true) // Checking place for new character
             {
-                CharactersBaseRange = CharactersBaseWorksheet.get_Range("A" + Key, Type.Missing);
-                if (CharactersBaseRange.Value2 = null)
+                CharactersBaseRange = CharactersBaseWorksheet.get_Range("A" + Key, "A" + Key); // 2nd use ==> crash programm
+                if (CharactersBaseRange.Text == "")
                     break;
                 else
                     Key++;
@@ -78,6 +78,9 @@ namespace D_DHelper
             // Description
             FromTextboxToCell("AH", characterscreatorform.AttacksTextbox);
             FromTextboxToCell("AI", characterscreatorform.OtherTextbox);
+
+            CharactersBaseWorkbook.SaveAs(@"C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\Materials\CharactersBase.xlsx", Excel.XlFileFormat.xlWorkbookNormal, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Excel.XlSaveAsAccessMode.xlNoChange, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing); // Save in user dociments folder - bug
+            CharactersBaseApplication.Quit();
         }
         
         public static void OpenCharactersCreator(Form form)
@@ -88,13 +91,13 @@ namespace D_DHelper
 
         private static void FromTextboxToCell(string Letter, TextBox textbox)
         {
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range(Letter + Key, Type.Missing);
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range(Letter + Key, Letter + Key);
             CharactersBaseRange.Value2 = textbox.Text;
         }
 
         private static void FromCheckBoxToCell(string Letter, CheckBox checkbox)
         {
-            CharactersBaseRange = CharactersBaseWorksheet.get_Range(Letter + Key, Type.Missing);
+            CharactersBaseRange = CharactersBaseWorksheet.get_Range(Letter + Key, Letter + Key);
             
             if(checkbox.Checked == true)
             {

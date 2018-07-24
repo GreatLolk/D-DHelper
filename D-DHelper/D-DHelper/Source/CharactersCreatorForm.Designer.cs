@@ -86,6 +86,7 @@
             this.checkBox16 = new System.Windows.Forms.CheckBox();
             this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.checkBox18 = new System.Windows.Forms.CheckBox();
+            this.label17 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -730,12 +731,28 @@
             this.checkBox18.TabIndex = 57;
             this.checkBox18.UseVisualStyleBackColor = false;
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label17.Font = new System.Drawing.Font("Calligraphic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label17.Location = new System.Drawing.Point(608, 673);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(178, 27);
+            this.label17.TabIndex = 58;
+            this.label17.Text = "Create Character";
+            this.label17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.label17_MouseClick);
+            // 
             // CharactersCreatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::D_DHelper.Properties.Resources.CharactersCreatorFon;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.label17);
             this.Controls.Add(this.checkBox18);
             this.Controls.Add(this.checkBox17);
             this.Controls.Add(this.checkBox16);
@@ -871,5 +888,6 @@
         public System.Windows.Forms.CheckBox checkBox16;
         public System.Windows.Forms.CheckBox checkBox17;
         public System.Windows.Forms.CheckBox checkBox18;
+        private System.Windows.Forms.Label label17;
     }
 }

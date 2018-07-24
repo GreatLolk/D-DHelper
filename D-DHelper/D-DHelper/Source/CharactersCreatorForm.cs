@@ -209,5 +209,10 @@ namespace D_DHelper
         {
             OutTextToTextboxAndLabel(label16, CHATextbox);
         }
+
+        private void label17_MouseClick(object sender, MouseEventArgs e)
+        {
+            CharactersCreator.CreateCharacter(this);
+        }
     }
 }
