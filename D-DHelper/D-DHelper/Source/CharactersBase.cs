@@ -9,15 +9,15 @@ namespace D_DHelper
 {
     class CharactersBase
     {
-        // XLSX MODULE
-        private static Excel.Application CharactersBaseApplication = new Excel.Application();
-        private static Excel.Workbook CharactersBaseWorkbook = CharactersBaseApplication.Workbooks.Open(@"C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\Materials\CharactersBase.xlsx", 0, true, 5, "", "", true, Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0); // CharactersBase folder
-        private static Excel.Worksheet CharactersBaseWorksheet = (Excel.Worksheet)CharactersBaseWorkbook.Worksheets.get_Item(1); // Cells with needed data
-        private static Excel.Range CharactersBaseRange; // Cell or Cells
-        // XLSX MODULE
-
+        
         public static void OpenCharactersBase()
         {
-        }
+        // XLSX MODULE
+        Excel.Application CharactersBaseApplication = new Excel.Application();
+        Excel.Workbook CharactersBaseWorkbook = CharactersBaseApplication.Workbooks.Open(@"C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\Materials\CharactersBase.xlsx", 0, true, 5, "", "", true, Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0); // CharactersBase folder
+        Excel.Worksheet CharactersBaseWorksheet = (Excel.Worksheet)CharactersBaseWorkbook.Worksheets.get_Item(1); // Cells with needed data
+        Excel.Range CharactersBaseRange; // Cell or Cells
+        // XLSX MODULE
     }
+}
 }
