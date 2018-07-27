@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,8 +13,9 @@ namespace D_DHelper
     {
         public static void CreateCharacter(CharactersCreatorForm characterscreatorform)
         {
+            string FilePath = @"C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\Materials\CharactersBase.xlsx";
             Excel.Application CharactersBaseApplication = new Excel.Application();
-            Excel.Workbook CharactersBaseWorkbook = CharactersBaseApplication.Workbooks.Open(@"C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\Materials\CharactersBase.xlsx", 0, true, 5, "", "", true, Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0); // CharactersBase folder
+            Excel.Workbook CharactersBaseWorkbook = CharactersBaseApplication.Workbooks.Open(FilePath, 0, true, 5, "", "", true, Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0); // CharactersBase folder
             Excel.Worksheet CharactersBaseWorksheet = (Excel.Worksheet)CharactersBaseWorkbook.Worksheets.get_Item(1); // Cells with needed data
             Excel.Range CharactersBaseRange; // Cell or Cells
             int Key = 1;
@@ -27,7 +29,7 @@ namespace D_DHelper
                     Key++;
             }
 
-            CharactersBaseRange.Value2 = Key; // Generate Key
+            CharactersBaseRange.Value2 = Key - 1; // Generate Key
 
             // Character's information
 
@@ -77,9 +79,15 @@ namespace D_DHelper
             FromTextboxToCell("AH", characterscreatorform.AttacksTextbox, CharactersBaseRange, Key, CharactersBaseWorksheet);
             FromTextboxToCell("AI", characterscreatorform.OtherTextbox, CharactersBaseRange, Key, CharactersBaseWorksheet);
 
-            CharactersBaseWorkbook.SaveAs(@"C:\Users\Компьютер\Desktop\Программирование\D&D Helper\D-DHelper\D-DHelper\Materials\CharactersBase.xlsx", Excel.XlFileFormat.xlWorkbookNormal, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Excel.XlSaveAsAccessMode.xlNoChange, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing); // BUG - dont save, only for read
-            CharactersBaseWorkbook.Close();
+            // Saving 
+            string CopyFilePath = Path.GetTempFileName();
+            File.Delete(CopyFilePath);
+            CharactersBaseApplication.DisplayAlerts = false;
+            CharactersBaseWorkbook.SaveAs(CopyFilePath, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Excel.XlSaveAsAccessMode.xlExclusive, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing); // BUG - dont save, only for read
+            CharactersBaseWorkbook.Close(false);
             CharactersBaseApplication.Quit();
+            File.Delete(FilePath);
+            File.Move(CopyFilePath, FilePath);
         }
         
         public static void OpenCharactersCreator(Form form)
