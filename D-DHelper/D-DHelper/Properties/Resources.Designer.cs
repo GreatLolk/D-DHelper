@@ -153,6 +153,16 @@ namespace D_DHelper.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DiceRollerFon {
+            get {
+                object obj = ResourceManager.GetObject("DiceRollerFon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DiceRollerIC {
             get {
                 object obj = ResourceManager.GetObject("DiceRollerIC", resourceCulture);
