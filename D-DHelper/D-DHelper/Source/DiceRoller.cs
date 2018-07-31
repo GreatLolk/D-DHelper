@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace D_DHelper
 {
@@ -12,8 +13,10 @@ namespace D_DHelper
 
         public static int DiceChoice { get; set; }
 
-        public static void OpenDiceRoller()
+        public static void OpenDiceRoller(Form form)
         {
+            DiceRollerForm dicerollerform = new DiceRollerForm(form);
+            dicerollerform.Show();
         }
 
         private void DiceRoll()

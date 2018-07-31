@@ -12,7 +12,7 @@ namespace D_DHelper
 {
     public partial class CharactersCreatorForm : Form
     {
-        private Form prmainform; // = CommonChoiceForm
+        private Form prmainform; // = PlayersForm OR MastersForm
 
         public CharactersCreatorForm()
         {

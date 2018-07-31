@@ -64,7 +64,7 @@ namespace D_DHelper
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            DiceRoller.OpenDiceRoller();
+            DiceRoller.OpenDiceRoller(this);
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
