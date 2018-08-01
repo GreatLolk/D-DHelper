@@ -13,6 +13,8 @@ namespace D_DHelper
 
         public static int DiceChoice { get; set; }
 
+        public static int DiceCounter { get; set; } = 1;
+
         public static void OpenDiceRoller(Form form)
         {
             DiceRollerForm dicerollerform = new DiceRollerForm(form);
@@ -21,7 +23,10 @@ namespace D_DHelper
 
         private void DiceRoll()
         {
-            rnd.Next(1, DiceChoice);
+            for (int index = 1; index <= DiceCounter; index++)
+            {
+                rnd.Next(1, DiceChoice);
+            }
         }
     }
 }
