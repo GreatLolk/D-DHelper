@@ -248,6 +248,7 @@
             this.label1.Size = new System.Drawing.Size(86, 34);
             this.label1.TabIndex = 14;
             this.label1.Text = "ROLL";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // DiceRollerForm
             // 
