@@ -36,5 +36,10 @@ namespace D_DHelper
         {
             BackToCommonChooseForm(this, prmainform);
         }
+
+        private void label64_MouseEnter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

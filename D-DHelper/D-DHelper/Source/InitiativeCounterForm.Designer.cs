@@ -53,6 +53,72 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,6 +127,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::D_DHelper.Properties.Resources.ArrowPF;
             this.pictureBox1.Location = new System.Drawing.Point(11, 7);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(28, 37);
             this.pictureBox1.TabIndex = 0;
@@ -355,12 +422,756 @@
             this.label24.TabIndex = 19;
             this.label24.Text = "S";
             // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label25.Location = new System.Drawing.Point(91, 91);
+            this.label25.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(75, 17);
+            this.label25.TabIndex = 25;
+            this.label25.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.Transparent;
+            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label26.Location = new System.Drawing.Point(305, 91);
+            this.label26.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(75, 17);
+            this.label26.TabIndex = 26;
+            this.label26.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.Transparent;
+            this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label27.Location = new System.Drawing.Point(545, 91);
+            this.label27.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(75, 17);
+            this.label27.TabIndex = 27;
+            this.label27.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.Transparent;
+            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label28.Location = new System.Drawing.Point(738, 91);
+            this.label28.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(75, 17);
+            this.label28.TabIndex = 28;
+            this.label28.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label29.Location = new System.Drawing.Point(955, 91);
+            this.label29.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(75, 17);
+            this.label29.TabIndex = 29;
+            this.label29.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label30.Location = new System.Drawing.Point(1162, 91);
+            this.label30.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(75, 17);
+            this.label30.TabIndex = 30;
+            this.label30.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label31.Location = new System.Drawing.Point(1162, 284);
+            this.label31.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(75, 17);
+            this.label31.TabIndex = 36;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.Transparent;
+            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label32.Location = new System.Drawing.Point(955, 284);
+            this.label32.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(75, 17);
+            this.label32.TabIndex = 35;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.Color.Transparent;
+            this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label33.Location = new System.Drawing.Point(738, 284);
+            this.label33.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(75, 17);
+            this.label33.TabIndex = 34;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.Transparent;
+            this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label34.Location = new System.Drawing.Point(545, 284);
+            this.label34.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(75, 17);
+            this.label34.TabIndex = 33;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.Transparent;
+            this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label35.Location = new System.Drawing.Point(305, 284);
+            this.label35.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(75, 17);
+            this.label35.TabIndex = 32;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.Transparent;
+            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label36.Location = new System.Drawing.Point(91, 284);
+            this.label36.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(75, 17);
+            this.label36.TabIndex = 31;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.Transparent;
+            this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label37.Location = new System.Drawing.Point(1162, 489);
+            this.label37.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(75, 17);
+            this.label37.TabIndex = 42;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.Transparent;
+            this.label38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label38.Location = new System.Drawing.Point(955, 489);
+            this.label38.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(75, 17);
+            this.label38.TabIndex = 41;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.BackColor = System.Drawing.Color.Transparent;
+            this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label39.Location = new System.Drawing.Point(738, 489);
+            this.label39.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(75, 17);
+            this.label39.TabIndex = 40;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.Transparent;
+            this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label40.Location = new System.Drawing.Point(545, 489);
+            this.label40.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(75, 17);
+            this.label40.TabIndex = 39;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.BackColor = System.Drawing.Color.Transparent;
+            this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label41.Location = new System.Drawing.Point(305, 489);
+            this.label41.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(75, 17);
+            this.label41.TabIndex = 38;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.BackColor = System.Drawing.Color.Transparent;
+            this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label42.Location = new System.Drawing.Point(91, 489);
+            this.label42.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(75, 17);
+            this.label42.TabIndex = 37;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.BackColor = System.Drawing.Color.Transparent;
+            this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label43.Location = new System.Drawing.Point(1162, 665);
+            this.label43.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(75, 17);
+            this.label43.TabIndex = 48;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.BackColor = System.Drawing.Color.Transparent;
+            this.label44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label44.Location = new System.Drawing.Point(955, 665);
+            this.label44.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(75, 17);
+            this.label44.TabIndex = 47;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.BackColor = System.Drawing.Color.Transparent;
+            this.label45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label45.Location = new System.Drawing.Point(738, 665);
+            this.label45.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(75, 17);
+            this.label45.TabIndex = 46;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.label46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label46.Location = new System.Drawing.Point(545, 665);
+            this.label46.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(75, 17);
+            this.label46.TabIndex = 45;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.BackColor = System.Drawing.Color.Transparent;
+            this.label47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label47.Location = new System.Drawing.Point(305, 665);
+            this.label47.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(75, 17);
+            this.label47.TabIndex = 44;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.BackColor = System.Drawing.Color.Transparent;
+            this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label48.Location = new System.Drawing.Point(91, 665);
+            this.label48.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(75, 17);
+            this.label48.TabIndex = 43;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(91, 80);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(75, 20);
+            this.textBox1.TabIndex = 49;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(306, 80);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(75, 20);
+            this.textBox2.TabIndex = 50;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(545, 80);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(75, 20);
+            this.textBox3.TabIndex = 51;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(738, 80);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(75, 20);
+            this.textBox4.TabIndex = 52;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(955, 80);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(75, 20);
+            this.textBox5.TabIndex = 53;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(1162, 80);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(75, 20);
+            this.textBox6.TabIndex = 54;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(1162, 273);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(75, 20);
+            this.textBox7.TabIndex = 66;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(955, 273);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(75, 20);
+            this.textBox8.TabIndex = 65;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(738, 273);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(75, 20);
+            this.textBox9.TabIndex = 64;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(545, 273);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(75, 20);
+            this.textBox10.TabIndex = 63;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(306, 273);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(75, 20);
+            this.textBox11.TabIndex = 62;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(91, 273);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(75, 20);
+            this.textBox12.TabIndex = 61;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.BackColor = System.Drawing.Color.Transparent;
+            this.label49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label49.Location = new System.Drawing.Point(1162, 284);
+            this.label49.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(75, 17);
+            this.label49.TabIndex = 60;
+            this.label49.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.BackColor = System.Drawing.Color.Transparent;
+            this.label50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label50.Location = new System.Drawing.Point(955, 284);
+            this.label50.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(75, 17);
+            this.label50.TabIndex = 59;
+            this.label50.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.BackColor = System.Drawing.Color.Transparent;
+            this.label51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label51.Location = new System.Drawing.Point(738, 284);
+            this.label51.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(75, 17);
+            this.label51.TabIndex = 58;
+            this.label51.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.BackColor = System.Drawing.Color.Transparent;
+            this.label52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label52.Location = new System.Drawing.Point(545, 284);
+            this.label52.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(75, 17);
+            this.label52.TabIndex = 57;
+            this.label52.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.BackColor = System.Drawing.Color.Transparent;
+            this.label53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label53.Location = new System.Drawing.Point(305, 284);
+            this.label53.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(75, 17);
+            this.label53.TabIndex = 56;
+            this.label53.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.BackColor = System.Drawing.Color.Transparent;
+            this.label54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label54.Location = new System.Drawing.Point(91, 284);
+            this.label54.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(75, 17);
+            this.label54.TabIndex = 55;
+            this.label54.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(1161, 478);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(75, 20);
+            this.textBox13.TabIndex = 78;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(954, 478);
+            this.textBox14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(75, 20);
+            this.textBox14.TabIndex = 77;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(737, 478);
+            this.textBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(75, 20);
+            this.textBox15.TabIndex = 76;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(544, 478);
+            this.textBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(75, 20);
+            this.textBox16.TabIndex = 75;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(305, 478);
+            this.textBox17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(75, 20);
+            this.textBox17.TabIndex = 74;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(90, 478);
+            this.textBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(75, 20);
+            this.textBox18.TabIndex = 73;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.BackColor = System.Drawing.Color.Transparent;
+            this.label55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label55.Location = new System.Drawing.Point(1161, 489);
+            this.label55.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(75, 17);
+            this.label55.TabIndex = 72;
+            this.label55.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.BackColor = System.Drawing.Color.Transparent;
+            this.label56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label56.Location = new System.Drawing.Point(954, 489);
+            this.label56.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(75, 17);
+            this.label56.TabIndex = 71;
+            this.label56.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.BackColor = System.Drawing.Color.Transparent;
+            this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label57.Location = new System.Drawing.Point(737, 489);
+            this.label57.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(75, 17);
+            this.label57.TabIndex = 70;
+            this.label57.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.BackColor = System.Drawing.Color.Transparent;
+            this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label58.Location = new System.Drawing.Point(544, 489);
+            this.label58.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(75, 17);
+            this.label58.TabIndex = 69;
+            this.label58.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.BackColor = System.Drawing.Color.Transparent;
+            this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label59.Location = new System.Drawing.Point(304, 489);
+            this.label59.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(75, 17);
+            this.label59.TabIndex = 68;
+            this.label59.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.BackColor = System.Drawing.Color.Transparent;
+            this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label60.Location = new System.Drawing.Point(90, 489);
+            this.label60.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(75, 17);
+            this.label60.TabIndex = 67;
+            this.label60.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // textBox19
+            // 
+            this.textBox19.Location = new System.Drawing.Point(1161, 654);
+            this.textBox19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(75, 20);
+            this.textBox19.TabIndex = 90;
+            // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(954, 654);
+            this.textBox20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(75, 20);
+            this.textBox20.TabIndex = 89;
+            // 
+            // textBox21
+            // 
+            this.textBox21.Location = new System.Drawing.Point(737, 654);
+            this.textBox21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(75, 20);
+            this.textBox21.TabIndex = 88;
+            // 
+            // textBox22
+            // 
+            this.textBox22.Location = new System.Drawing.Point(544, 654);
+            this.textBox22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(75, 20);
+            this.textBox22.TabIndex = 87;
+            // 
+            // textBox23
+            // 
+            this.textBox23.Location = new System.Drawing.Point(305, 654);
+            this.textBox23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(75, 20);
+            this.textBox23.TabIndex = 86;
+            // 
+            // textBox24
+            // 
+            this.textBox24.Location = new System.Drawing.Point(90, 654);
+            this.textBox24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(75, 20);
+            this.textBox24.TabIndex = 85;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.BackColor = System.Drawing.Color.Transparent;
+            this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label61.Location = new System.Drawing.Point(1161, 665);
+            this.label61.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(75, 17);
+            this.label61.TabIndex = 84;
+            this.label61.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.BackColor = System.Drawing.Color.Transparent;
+            this.label62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label62.Location = new System.Drawing.Point(954, 665);
+            this.label62.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(75, 17);
+            this.label62.TabIndex = 83;
+            this.label62.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.BackColor = System.Drawing.Color.Transparent;
+            this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label63.Location = new System.Drawing.Point(737, 665);
+            this.label63.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(75, 17);
+            this.label63.TabIndex = 82;
+            this.label63.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.BackColor = System.Drawing.Color.Transparent;
+            this.label64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label64.Location = new System.Drawing.Point(544, 665);
+            this.label64.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(75, 17);
+            this.label64.TabIndex = 81;
+            this.label64.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.BackColor = System.Drawing.Color.Transparent;
+            this.label65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label65.Location = new System.Drawing.Point(304, 665);
+            this.label65.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(75, 17);
+            this.label65.TabIndex = 80;
+            this.label65.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.BackColor = System.Drawing.Color.Transparent;
+            this.label66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label66.Location = new System.Drawing.Point(90, 665);
+            this.label66.MinimumSize = new System.Drawing.Size(75, 17);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(75, 17);
+            this.label66.TabIndex = 79;
+            this.label66.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
+            // 
             // InitiativeCounterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::D_DHelper.Properties.Resources.InitativeCounterFon;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.textBox19);
+            this.Controls.Add(this.textBox20);
+            this.Controls.Add(this.textBox21);
+            this.Controls.Add(this.textBox22);
+            this.Controls.Add(this.textBox23);
+            this.Controls.Add(this.textBox24);
+            this.Controls.Add(this.label61);
+            this.Controls.Add(this.label62);
+            this.Controls.Add(this.label63);
+            this.Controls.Add(this.label64);
+            this.Controls.Add(this.label65);
+            this.Controls.Add(this.label66);
+            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.textBox16);
+            this.Controls.Add(this.textBox17);
+            this.Controls.Add(this.textBox18);
+            this.Controls.Add(this.label55);
+            this.Controls.Add(this.label56);
+            this.Controls.Add(this.label57);
+            this.Controls.Add(this.label58);
+            this.Controls.Add(this.label59);
+            this.Controls.Add(this.label60);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.label49);
+            this.Controls.Add(this.label50);
+            this.Controls.Add(this.label51);
+            this.Controls.Add(this.label52);
+            this.Controls.Add(this.label53);
+            this.Controls.Add(this.label54);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label43);
+            this.Controls.Add(this.label44);
+            this.Controls.Add(this.label45);
+            this.Controls.Add(this.label46);
+            this.Controls.Add(this.label47);
+            this.Controls.Add(this.label48);
+            this.Controls.Add(this.label37);
+            this.Controls.Add(this.label38);
+            this.Controls.Add(this.label39);
+            this.Controls.Add(this.label40);
+            this.Controls.Add(this.label41);
+            this.Controls.Add(this.label42);
+            this.Controls.Add(this.label31);
+            this.Controls.Add(this.label32);
+            this.Controls.Add(this.label33);
+            this.Controls.Add(this.label34);
+            this.Controls.Add(this.label35);
+            this.Controls.Add(this.label36);
+            this.Controls.Add(this.label30);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.label25);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label21);
@@ -386,7 +1197,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "InitiativeCounterForm";
             this.Text = "InitiativeCounterForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -422,5 +1235,71 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label label66;
     }
 }
