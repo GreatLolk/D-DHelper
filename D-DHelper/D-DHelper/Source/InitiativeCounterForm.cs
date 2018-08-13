@@ -37,9 +37,137 @@ namespace D_DHelper
             BackToCommonChooseForm(this, prmainform);
         }
 
-        private void label64_MouseEnter(object sender, EventArgs e)
+        private void InTextToTextboxAndLabel(Label label, TextBox textbox) // For Lables
         {
+            label.Hide();
+            textbox.Show();
+        }
 
+        private void OutTextToTextboxAndLabel(Label label, TextBox textbox) // For Textbox
+        {
+            textbox.Hide();
+            label.Text = textbox.Text;
+            label.Show();
+        }
+
+        private void label25_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label25, textBox1);
+        }
+
+        private void textBox1_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label25, textBox1);
+        }
+
+        private void label26_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label26, textBox2);
+        }
+
+        private void textBox2_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label26, textBox2);
+        }
+
+        private void label27_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label27, textBox3);
+        }
+
+        private void textBox3_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label27, textBox3);
+        }
+
+        private void label28_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label28, textBox4);
+        }
+
+        private void textBox4_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label28, textBox4);
+        }
+
+        private void label29_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label29, textBox5);
+        }
+
+        private void textBox5_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label29, textBox5);
+        }
+
+        private void label30_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label30, textBox6);
+        }
+
+        private void textBox6_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label30, textBox6);
+        }
+
+        private void label54_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label54, textBox12);
+        }
+
+        private void textBox12_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label54, textBox12);
+        }
+
+        private void label53_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label53, textBox11);
+        }
+
+        private void textBox11_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label53, textBox11);
+        }
+
+        private void label52_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label52, textBox10);
+        }
+
+        private void textBox10_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label52, textBox10);
+        }
+
+        private void label51_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label51, textBox9);
+        }
+
+        private void textBox9_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label51, textBox9);
+        }
+
+        private void label50_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label50, textBox8);
+        }
+
+        private void textBox8_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label50, textBox8);
+        }
+
+        private void label49_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label49, textBox7);
+        }
+
+        private void textBox7_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label49, textBox7);
         }
     }
 }
