@@ -886,57 +886,63 @@
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(1161, 478);
+            this.textBox13.Location = new System.Drawing.Point(1161, 489);
             this.textBox13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(75, 20);
             this.textBox13.TabIndex = 78;
             this.textBox13.Visible = false;
+            this.textBox13.MouseLeave += new System.EventHandler(this.textBox13_MouseLeave);
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(954, 478);
+            this.textBox14.Location = new System.Drawing.Point(954, 489);
             this.textBox14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(75, 20);
             this.textBox14.TabIndex = 77;
             this.textBox14.Visible = false;
+            this.textBox14.MouseLeave += new System.EventHandler(this.textBox14_MouseLeave);
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(737, 478);
+            this.textBox15.Location = new System.Drawing.Point(737, 489);
             this.textBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(75, 20);
             this.textBox15.TabIndex = 76;
             this.textBox15.Visible = false;
+            this.textBox15.MouseLeave += new System.EventHandler(this.textBox15_MouseLeave);
             // 
             // textBox16
             // 
-            this.textBox16.Location = new System.Drawing.Point(544, 478);
+            this.textBox16.Location = new System.Drawing.Point(544, 489);
             this.textBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(75, 20);
             this.textBox16.TabIndex = 75;
             this.textBox16.Visible = false;
+            this.textBox16.MouseLeave += new System.EventHandler(this.textBox16_MouseLeave);
             // 
             // textBox17
             // 
-            this.textBox17.Location = new System.Drawing.Point(305, 478);
+            this.textBox17.Location = new System.Drawing.Point(305, 489);
             this.textBox17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(75, 20);
             this.textBox17.TabIndex = 74;
             this.textBox17.Visible = false;
+            this.textBox17.MouseLeave += new System.EventHandler(this.textBox17_MouseLeave);
             // 
             // textBox18
             // 
-            this.textBox18.Location = new System.Drawing.Point(90, 478);
+            this.textBox18.Location = new System.Drawing.Point(90, 489);
             this.textBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(75, 20);
             this.textBox18.TabIndex = 73;
             this.textBox18.Visible = false;
+            this.textBox18.MouseLeave += new System.EventHandler(this.textBox18_MouseLeave);
             // 
             // label55
             // 
@@ -948,6 +954,7 @@
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(75, 17);
             this.label55.TabIndex = 72;
+            this.label55.MouseEnter += new System.EventHandler(this.label55_MouseEnter);
             // 
             // label56
             // 
@@ -959,6 +966,7 @@
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(75, 17);
             this.label56.TabIndex = 71;
+            this.label56.MouseEnter += new System.EventHandler(this.label56_MouseEnter);
             // 
             // label57
             // 
@@ -970,6 +978,7 @@
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(75, 17);
             this.label57.TabIndex = 70;
+            this.label57.MouseEnter += new System.EventHandler(this.label57_MouseEnter);
             // 
             // label58
             // 
@@ -981,6 +990,7 @@
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(75, 17);
             this.label58.TabIndex = 69;
+            this.label58.MouseEnter += new System.EventHandler(this.label58_MouseEnter);
             // 
             // label59
             // 
@@ -992,6 +1002,7 @@
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(75, 17);
             this.label59.TabIndex = 68;
+            this.label59.MouseEnter += new System.EventHandler(this.label59_MouseEnter);
             // 
             // label60
             // 
@@ -1003,60 +1014,67 @@
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(75, 17);
             this.label60.TabIndex = 67;
+            this.label60.MouseEnter += new System.EventHandler(this.label60_MouseEnter);
             // 
             // textBox19
             // 
-            this.textBox19.Location = new System.Drawing.Point(1161, 654);
+            this.textBox19.Location = new System.Drawing.Point(1161, 665);
             this.textBox19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(75, 20);
             this.textBox19.TabIndex = 90;
             this.textBox19.Visible = false;
+            this.textBox19.MouseLeave += new System.EventHandler(this.textBox19_MouseLeave);
             // 
             // textBox20
             // 
-            this.textBox20.Location = new System.Drawing.Point(954, 654);
+            this.textBox20.Location = new System.Drawing.Point(954, 665);
             this.textBox20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(75, 20);
             this.textBox20.TabIndex = 89;
             this.textBox20.Visible = false;
+            this.textBox20.MouseLeave += new System.EventHandler(this.textBox20_MouseLeave);
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(737, 654);
+            this.textBox21.Location = new System.Drawing.Point(737, 665);
             this.textBox21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(75, 20);
             this.textBox21.TabIndex = 88;
             this.textBox21.Visible = false;
+            this.textBox21.MouseLeave += new System.EventHandler(this.textBox21_MouseLeave);
             // 
             // textBox22
             // 
-            this.textBox22.Location = new System.Drawing.Point(544, 654);
+            this.textBox22.Location = new System.Drawing.Point(544, 665);
             this.textBox22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(75, 20);
             this.textBox22.TabIndex = 87;
             this.textBox22.Visible = false;
+            this.textBox22.MouseLeave += new System.EventHandler(this.textBox22_MouseLeave);
             // 
             // textBox23
             // 
-            this.textBox23.Location = new System.Drawing.Point(305, 654);
+            this.textBox23.Location = new System.Drawing.Point(305, 665);
             this.textBox23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(75, 20);
             this.textBox23.TabIndex = 86;
             this.textBox23.Visible = false;
+            this.textBox23.MouseLeave += new System.EventHandler(this.textBox23_MouseLeave);
             // 
             // textBox24
             // 
-            this.textBox24.Location = new System.Drawing.Point(90, 654);
+            this.textBox24.Location = new System.Drawing.Point(90, 665);
             this.textBox24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(75, 20);
             this.textBox24.TabIndex = 85;
             this.textBox24.Visible = false;
+            this.textBox24.MouseLeave += new System.EventHandler(this.textBox24_MouseLeave);
             // 
             // label61
             // 
@@ -1068,6 +1086,7 @@
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(75, 17);
             this.label61.TabIndex = 84;
+            this.label61.MouseEnter += new System.EventHandler(this.label61_MouseEnter);
             // 
             // label62
             // 
@@ -1079,6 +1098,7 @@
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(75, 17);
             this.label62.TabIndex = 83;
+            this.label62.MouseEnter += new System.EventHandler(this.label62_MouseEnter);
             // 
             // label63
             // 
@@ -1090,6 +1110,7 @@
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(75, 17);
             this.label63.TabIndex = 82;
+            this.label63.MouseEnter += new System.EventHandler(this.label63_MouseEnter);
             // 
             // label64
             // 
@@ -1101,6 +1122,7 @@
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(75, 17);
             this.label64.TabIndex = 81;
+            this.label64.MouseEnter += new System.EventHandler(this.label64_MouseEnter);
             // 
             // label65
             // 
@@ -1112,6 +1134,7 @@
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(75, 17);
             this.label65.TabIndex = 80;
+            this.label65.MouseEnter += new System.EventHandler(this.label65_MouseEnter);
             // 
             // label66
             // 
@@ -1123,6 +1146,7 @@
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(75, 17);
             this.label66.TabIndex = 79;
+            this.label66.MouseEnter += new System.EventHandler(this.label66_MouseEnter);
             // 
             // InitiativeCounterForm
             // 

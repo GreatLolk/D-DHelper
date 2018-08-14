@@ -169,5 +169,125 @@ namespace D_DHelper
         {
             OutTextToTextboxAndLabel(label49, textBox7);
         }
+
+        private void label60_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label60, textBox18);
+        }
+
+        private void textBox18_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label60, textBox18);
+        }
+
+        private void label59_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label59, textBox17);
+        }
+
+        private void textBox17_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label59, textBox17);
+        }
+
+        private void label58_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label58, textBox16);
+        }
+
+        private void textBox16_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label58, textBox16);
+        }
+
+        private void label57_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label57, textBox15);
+        }
+
+        private void textBox15_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label57, textBox15);
+        }
+
+        private void label56_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label56, textBox14);
+        }
+
+        private void textBox14_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label56, textBox14);
+        }
+
+        private void label55_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label55, textBox13);
+        }
+
+        private void textBox13_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label55, textBox13);
+        }
+
+        private void label66_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label66, textBox24);
+        }
+
+        private void textBox24_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label66, textBox24);
+        }
+
+        private void label65_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label65, textBox23);
+        }
+
+        private void textBox23_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label65, textBox23);
+        }
+
+        private void label64_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label64, textBox22);
+        }
+
+        private void textBox22_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label64, textBox22);
+        }
+
+        private void label63_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label63, textBox21);
+        }
+
+        private void textBox21_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label63, textBox21);
+        }
+
+        private void label62_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label62, textBox20);
+        }
+
+        private void textBox20_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label62, textBox20);
+        }
+
+        private void label61_MouseEnter(object sender, EventArgs e)
+        {
+            InTextToTextboxAndLabel(label61, textBox19);
+        }
+
+        private void textBox19_MouseLeave(object sender, EventArgs e)
+        {
+            OutTextToTextboxAndLabel(label61, textBox19);
+        }
     }
 }
