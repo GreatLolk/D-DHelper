@@ -50,6 +50,8 @@ namespace D_DHelper
             label.Show();
         }
 
+        #region User Input Textboxes And Labels
+
         private void label25_MouseEnter(object sender, EventArgs e)
         {
             InTextToTextboxAndLabel(label25, textBox1);
@@ -288,6 +290,49 @@ namespace D_DHelper
         private void textBox19_MouseLeave(object sender, EventArgs e)
         {
             OutTextToTextboxAndLabel(label61, textBox19);
+        }
+
+        #endregion
+
+        private void CountInitative()
+        {
+            Cell[] allcells = new Cell[24];
+            allcells[0] = new Cell(label25.Text, textBox1.Text);
+            allcells[1] = new Cell(label26.Text, textBox2.Text);
+            allcells[2] = new Cell(label27.Text, textBox3.Text);
+            allcells[3] = new Cell(label28.Text, textBox4.Text);
+            allcells[4] = new Cell(label29.Text, textBox5.Text);
+            allcells[5] = new Cell(label30.Text, textBox6.Text);
+            allcells[6] = new Cell(label54.Text, textBox12.Text);
+            allcells[7] = new Cell(label53.Text, textBox11.Text);
+            allcells[8] = new Cell(label52.Text, textBox10.Text);
+            allcells[9] = new Cell(label51.Text, textBox9.Text);
+            allcells[10] = new Cell(label50.Text, textBox8.Text);
+            allcells[11] = new Cell(label49.Text, textBox7.Text);
+            allcells[12] = new Cell(label60.Text, textBox18.Text);
+            allcells[13] = new Cell(label59.Text, textBox17.Text);
+            allcells[14] = new Cell(label58.Text, textBox16.Text);
+            allcells[15] = new Cell(label57.Text, textBox15.Text);
+            allcells[16] = new Cell(label56.Text, textBox14.Text);
+            allcells[17] = new Cell(label55.Text, textBox13.Text);
+            allcells[18] = new Cell(label66.Text, textBox24.Text);
+            allcells[19] = new Cell(label65.Text, textBox23.Text);
+            allcells[20] = new Cell(label64.Text, textBox22.Text);
+            allcells[21] = new Cell(label63.Text, textBox21.Text);
+            allcells[22] = new Cell(label62.Text, textBox20.Text);
+            allcells[23] = new Cell(label61.Text, textBox19.Text);
+        }
+
+        private class Cell
+        {
+            public string Name { get; set; }
+            public string Value { get; set; }
+
+            public Cell(string Name, string Value)
+            {
+                this.Name = Name;
+                this.Value = Value;
+            }
         }
     }
 }
