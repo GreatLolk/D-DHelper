@@ -321,12 +321,47 @@ namespace D_DHelper
             allcells[21] = new Cell(label63.Text, textBox21.Text);
             allcells[22] = new Cell(label62.Text, textBox20.Text);
             allcells[23] = new Cell(label61.Text, textBox19.Text);
+
+            int countofneedcell = 0;
+
+            for(int index = 0; index < allcells.Length; index++) // Count cell with number value
+            {
+                if (allcells[index].Value != "")
+                    countofneedcell++;
+                else
+                    continue;
+            }
+
+            Cell[] needcells = new Cell[countofneedcell];
+            int index2 = 0;
+
+            for(int index = 0; index < allcells.Length; index++) // Make cells massive with number values and names
+            {
+                if (allcells[index].Value != "")
+                {
+                    needcells[index2] = allcells[index];
+                    index2++;
+                }
+                else
+                {
+                    continue;
+                }
+            }
+
+
         }
 
         private class Cell
         {
             public string Name { get; set; }
             public string Value { get; set; }
+            public int InitiativeScore {
+                get
+                {
+                    Random rnd = new Random();
+                    return rnd.Next(20) + Convert.ToInt32(Value);
+                }
+            }
 
             public Cell(string Name, string Value)
             {
