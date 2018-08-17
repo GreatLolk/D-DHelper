@@ -347,26 +347,20 @@ namespace D_DHelper
                     continue;
                 }
             }
-
-
         }
 
         private class Cell
         {
             public string Name { get; set; }
             public string Value { get; set; }
-            public int InitiativeScore {
-                get
-                {
-                    Random rnd = new Random();
-                    return rnd.Next(20) + Convert.ToInt32(Value);
-                }
-            }
+            public int InitiativeScore { get; private set; }
 
             public Cell(string Name, string Value)
             {
                 this.Name = Name;
                 this.Value = Value;
+                Random rnd = new Random();
+                InitiativeScore = rnd.Next(20) + Convert.ToInt32(Value);
             }
         }
     }
