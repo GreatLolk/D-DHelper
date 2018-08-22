@@ -347,13 +347,46 @@ namespace D_DHelper
                     continue;
                 }
             }
+
+            int intforsorting = Int32.MinValue;
+            Cell[] frommoretolessmassive = new Cell[countofneedcell];
+
+            for(int indexone = 0; indexone < frommoretolessmassive.Length; indexone++)
+            {
+                int indextwo = 0;
+                int indexthree = 0;
+
+                for(; indextwo < needcells.Length; indextwo++)
+                {
+                    if(indextwo == needcells.Length - 1)
+                    {
+                        for(; indexthree < needcells.Length - 1; indexthree++ )
+                        {
+                            if (needcells[indexthree].InitiativeScore == intforsorting)
+                                break;
+
+                        }
+                        break;
+                    }
+
+                    else if(needcells[indextwo].InitiativeScore < needcells[indextwo + 1].InitiativeScore)
+                    {
+                        intforsorting = needcells[indextwo + 1].InitiativeScore;
+                    }
+                }
+
+                frommoretolessmassive[indexone] = needcells[indexthree];
+                needcells[indexthree].InitiativeScore = Int32.MinValue;
+            }
+
+
         }
 
         private class Cell
         {
             public string Name { get; set; }
             public string Value { get; set; }
-            public int InitiativeScore { get; private set; }
+            public int InitiativeScore { get;  set; }
 
             public Cell(string Name, string Value)
             {
