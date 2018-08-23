@@ -379,7 +379,14 @@ namespace D_DHelper
                 needcells[indexthree].InitiativeScore = Int32.MinValue;
             }
 
+            string resultoutput = "Your result:\r\n";
 
+            for(int index = 1; index == frommoretolessmassive.Length; index++)
+            {
+                resultoutput = resultoutput + Convert.ToString(index) + ":" + frommoretolessmassive[index - 1].Name + " - " + frommoretolessmassive[index - 1].InitiativeScore + "\r\n"; 
+            }
+
+            MessageBox.Show(resultoutput, "Result", MessageBoxButtons.OK);
         }
 
         private class Cell
