@@ -14,6 +14,7 @@ namespace D_DHelper
     {
         private Form prmainform; // = PlayersForm OR MastersForm
 
+        #region Constructors
         public InitiativeCounterForm()
         {
             InitializeComponent();
@@ -25,16 +26,13 @@ namespace D_DHelper
             prmainform = mainform;
             mainform.Hide();
         }
+        #endregion
 
+        #region Utility methods
         public static void BackToCommonChooseForm(Form closingform, Form mainform)
         {
             closingform.Hide();
             mainform.Show();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            BackToCommonChooseForm(this, prmainform);
         }
 
         private void InTextToTextboxAndLabel(Label label, TextBox textbox) // For Lables
@@ -49,12 +47,18 @@ namespace D_DHelper
             label.Text = textbox.Text;
             label.Show();
         }
+        #endregion
 
-        #region User Input Textboxes And Labels
+        #region User Input Textboxes, Labels And Pictureboxes
 
         private void label25_MouseEnter(object sender, EventArgs e)
         {
             InTextToTextboxAndLabel(label25, textBox1);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            BackToCommonChooseForm(this, prmainform);
         }
 
         private void textBox1_MouseLeave(object sender, EventArgs e)
@@ -292,6 +296,11 @@ namespace D_DHelper
             OutTextToTextboxAndLabel(label61, textBox19);
         }
 
+        private void label67_Click(object sender, EventArgs e)
+        {
+            CountInitative();
+        }
+
         #endregion
 
         private void CountInitative()
@@ -381,12 +390,12 @@ namespace D_DHelper
 
             string resultoutput = "Your result:\r\n";
 
-            for(int index = 1; index == frommoretolessmassive.Length; index++)
+            for(int index = 0; index < frommoretolessmassive.Length; index++)
             {
-                resultoutput = resultoutput + Convert.ToString(index) + ":" + frommoretolessmassive[index - 1].Name + " - " + frommoretolessmassive[index - 1].InitiativeScore + "\r\n"; 
+                resultoutput = resultoutput + Convert.ToString(index + 1) + ":" + frommoretolessmassive[index].Name + " - " + frommoretolessmassive[index].InitiativeScore + "\r\n"; 
             }
 
-            MessageBox.Show(resultoutput, "Result", MessageBoxButtons.OK);
+            MessageBox.Show(resultoutput, "Result", MessageBoxButtons.OK); // BUG -- Show only resultotput without changes
         }
 
         private class Cell
@@ -399,8 +408,11 @@ namespace D_DHelper
             {
                 this.Name = Name;
                 this.Value = Value;
-                Random rnd = new Random();
-                InitiativeScore = rnd.Next(20) + Convert.ToInt32(Value);
+                if (Value != "")
+                {
+                    Random rnd = new Random();
+                    InitiativeScore = rnd.Next(20) + Convert.ToInt32(Value);
+                }
             }
         }
     }

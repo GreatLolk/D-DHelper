@@ -119,6 +119,7 @@
             this.label64 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -1148,12 +1149,28 @@
             this.label66.TabIndex = 79;
             this.label66.MouseEnter += new System.EventHandler(this.label66_MouseEnter);
             // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.BackColor = System.Drawing.Color.Transparent;
+            this.label67.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label67.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label67.Font = new System.Drawing.Font("Calligraphic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label67.Location = new System.Drawing.Point(595, 373);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(180, 27);
+            this.label67.TabIndex = 91;
+            this.label67.Text = "Count Initiative";
+            this.label67.Click += new System.EventHandler(this.label67_Click);
+            // 
             // InitiativeCounterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::D_DHelper.Properties.Resources.InitativeCounterFon;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.label67);
             this.Controls.Add(this.textBox19);
             this.Controls.Add(this.textBox20);
             this.Controls.Add(this.textBox21);
@@ -1349,5 +1366,6 @@
         private System.Windows.Forms.Label label64;
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label label67;
     }
 }
