@@ -306,30 +306,30 @@ namespace D_DHelper
         private void CountInitative()
         {
             Cell[] allcells = new Cell[24];
-            allcells[0] = new Cell(label25.Text, textBox1.Text);
-            allcells[1] = new Cell(label26.Text, textBox2.Text);
-            allcells[2] = new Cell(label27.Text, textBox3.Text);
-            allcells[3] = new Cell(label28.Text, textBox4.Text);
-            allcells[4] = new Cell(label29.Text, textBox5.Text);
-            allcells[5] = new Cell(label30.Text, textBox6.Text);
-            allcells[6] = new Cell(label54.Text, textBox12.Text);
-            allcells[7] = new Cell(label53.Text, textBox11.Text);
-            allcells[8] = new Cell(label52.Text, textBox10.Text);
-            allcells[9] = new Cell(label51.Text, textBox9.Text);
-            allcells[10] = new Cell(label50.Text, textBox8.Text);
-            allcells[11] = new Cell(label49.Text, textBox7.Text);
-            allcells[12] = new Cell(label60.Text, textBox18.Text);
-            allcells[13] = new Cell(label59.Text, textBox17.Text);
-            allcells[14] = new Cell(label58.Text, textBox16.Text);
-            allcells[15] = new Cell(label57.Text, textBox15.Text);
-            allcells[16] = new Cell(label56.Text, textBox14.Text);
-            allcells[17] = new Cell(label55.Text, textBox13.Text);
-            allcells[18] = new Cell(label66.Text, textBox24.Text);
-            allcells[19] = new Cell(label65.Text, textBox23.Text);
-            allcells[20] = new Cell(label64.Text, textBox22.Text);
-            allcells[21] = new Cell(label63.Text, textBox21.Text);
-            allcells[22] = new Cell(label62.Text, textBox20.Text);
-            allcells[23] = new Cell(label61.Text, textBox19.Text);
+            allcells[0] = new Cell(label1.Text, textBox1.Text);
+            allcells[1] = new Cell(label2.Text, textBox2.Text);
+            allcells[2] = new Cell(label3.Text, textBox3.Text);
+            allcells[3] = new Cell(label4.Text, textBox4.Text);
+            allcells[4] = new Cell(label5.Text, textBox5.Text);
+            allcells[5] = new Cell(label6.Text, textBox6.Text);
+            allcells[6] = new Cell(label12.Text, textBox12.Text);
+            allcells[7] = new Cell(label11.Text, textBox11.Text);
+            allcells[8] = new Cell(label10.Text, textBox10.Text);
+            allcells[9] = new Cell(label9.Text, textBox9.Text);
+            allcells[10] = new Cell(label8.Text, textBox8.Text);
+            allcells[11] = new Cell(label7.Text, textBox7.Text);
+            allcells[12] = new Cell(label18.Text, textBox18.Text);
+            allcells[13] = new Cell(label17.Text, textBox17.Text);
+            allcells[14] = new Cell(label16.Text, textBox16.Text);
+            allcells[15] = new Cell(label15.Text, textBox15.Text);
+            allcells[16] = new Cell(label14.Text, textBox14.Text);
+            allcells[17] = new Cell(label13.Text, textBox13.Text);
+            allcells[18] = new Cell(label24.Text, textBox24.Text);
+            allcells[19] = new Cell(label23.Text, textBox23.Text);
+            allcells[20] = new Cell(label22.Text, textBox22.Text);
+            allcells[21] = new Cell(label21.Text, textBox21.Text);
+            allcells[22] = new Cell(label20.Text, textBox20.Text);
+            allcells[23] = new Cell(label19.Text, textBox19.Text);
 
             int countofneedcell = 0;
 
@@ -384,7 +384,7 @@ namespace D_DHelper
                     }
                 }
 
-                frommoretolessmassive[indexone] = needcells[indexthree];
+                frommoretolessmassive[indexone] = (Cell)needcells[indexthree].Clone();
                 needcells[indexthree].InitiativeScore = Int32.MinValue;
             }
 
@@ -392,13 +392,13 @@ namespace D_DHelper
 
             for(int index = 0; index < frommoretolessmassive.Length; index++)
             {
-                resultoutput = resultoutput + Convert.ToString(index + 1) + ":" + frommoretolessmassive[index].Name + " - " + frommoretolessmassive[index].InitiativeScore + "\r\n"; 
+               resultoutput = resultoutput + Convert.ToString(index + 1) + ": " + frommoretolessmassive[index].Name + " - " + frommoretolessmassive[index].InitiativeScore + "\r\n"; 
             }
 
-            MessageBox.Show(resultoutput, "Result", MessageBoxButtons.OK); // BUG -- Show only resultotput without changes
+            MessageBox.Show(resultoutput, "Result", MessageBoxButtons.OK); 
         }
 
-        private class Cell
+        private class Cell : ICloneable
         {
             public string Name { get; set; }
             public string Value { get; set; }
@@ -414,6 +414,16 @@ namespace D_DHelper
                     InitiativeScore = rnd.Next(20) + Convert.ToInt32(Value);
                 }
             }
+
+            public object Clone()
+            {
+                return new Cell(Name = this.Name, Value = this.Value);
+            }
+        }
+
+        private interface ICloneable
+        {
+            object Clone();
         }
     }
 }
